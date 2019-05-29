@@ -6,11 +6,11 @@ container:
 
 test_task:
   coursier_cache:
-    folder: .coursier/cache
+    folder: $HOME/.coursier/cache
     fingerprint_script: cat build.sbt project/*.sbt
     populate_script: sbt update
   ivy_cache:
-    folder: .ivy2/cache
+    folder: $HOME/.ivy2/cache
     fingerprint_script: cat build.sbt project/*.sbt
     populate_script: sbt update
   test_script: sbt test scripted
