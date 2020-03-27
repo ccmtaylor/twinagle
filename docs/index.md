@@ -6,3 +6,6 @@ layout: home
 ---
 
 # Hello World
+
+we need a nice hello and welcome type text here.
+For now, check out the Getting Started Page up there ^
